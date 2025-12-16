@@ -2,48 +2,65 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>AssettoPacks Mods</title>
+  <title>AssettoPacks</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">AssettoPacks</div>
+    <nav>
+      <a href="#">Cars</a>
+      <a href="#">Car Packs</a>
+      <a href="#">Tracks</a>
+      <a href="#">Top Mods</a>
+    </nav>
+  </header>
 
-<header class="navbar">
-  <div class="logo">GripStyle</div>
-  <nav>
-    <a href="#">Cars</a>
-    <a href="#">Car Packs</a>
-    <a href="#">Tracks</a>
-    <a href="#">Top Mods</a>
-  </nav>
-</header>
-
-<section class="hero">
-  <h1>Assetto Corsa Mods</h1>
-  <p>High-quality cars, packs, and tracks</p>
-</section>
-
-<main class="container">
-  <div class="grid">
-    <div class="card">
-      <img src="assets/placeholder.jpg">
-      <h3>BMW E36 Drift</h3>
-      <span>Car</span>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Assetto Corsa Mods</h1>
+      <p>Download high-quality cars, packs, and tracks for Assetto Corsa</p>
+      <a href="#mods" class="btn">Browse Mods</a>
     </div>
+  </section>
 
-    <div class="card">
-      <img src="assets/placeholder.jpg">
-      <h3>JDM Pack</h3>
-      <span>Car Pack</span>
+  <!-- Mods Section -->
+  <main class="container" id="mods">
+    <h2 class="section-title">Latest Mods</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="assets/placeholder.jpg" alt="BMW E36 Drift">
+        <h3>BMW E36 Drift</h3>
+        <span class="type">Car</span>
+      </div>
+
+      <div class="card">
+        <img src="assets/placeholder.jpg" alt="JDM Pack">
+        <h3>JDM Pack</h3>
+        <span class="type">Car Pack</span>
+      </div>
+
+      <div class="card">
+        <img src="assets/placeholder.jpg" alt="Mountain Pass">
+        <h3>Mountain Pass</h3>
+        <span class="type">Track</span>
+      </div>
+
+      <div class="card">
+        <img src="assets/placeholder.jpg" alt="Drift King Pack">
+        <h3>Drift King Pack</h3>
+        <span class="type">Car Pack</span>
+      </div>
     </div>
+  </main>
 
-    <div class="card">
-      <img src="assets/placeholder.jpg">
-      <h3>Mountain Pass</h3>
-      <span>Track</span>
-    </div>
-  </div>
-</main>
-
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 AssettoPacks. All rights reserved.</p>
+  </footer>
 </body>
 </html>
